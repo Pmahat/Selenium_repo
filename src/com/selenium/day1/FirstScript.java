@@ -14,6 +14,29 @@ public class FirstScript {
 		
 		driver.get("http://selenium.dev");
 		System.out.println(driver.getTitle());
+		
+//		// assertion
+//		if(driver.getTitle().contains("ToolsQA")) {
+//			System.out.println("Test case pass");
+//		}
+//		else {
+//			System.out.println("Test case fail");
+//		}
+//		
+//		
+//		// locate by ID attribute
+//		driver.findElement(By.id("firstName")).sendKeys("chinmay");
+//		driver.findElement(By.id("lastName")).sendKeys("deshpande");
+//		//Thread.sleep(2000);
+//		//driver.findElement(By.id("gender-radio-1")).click();
+//		
+//		
+//		// Locate by name attribute
+//		driver.findElement(By.name("gender"));
+//		
+//		// locate the element by className
+//		driver.findElement(By.className("practice-form-wrapper"));
+		
 		driver.quit();
 
 	}
