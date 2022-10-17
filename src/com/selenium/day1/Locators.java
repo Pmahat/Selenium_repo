@@ -1,5 +1,6 @@
 package com.selenium.day1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -47,7 +48,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\hamal\\OneDrive\\Deskt
 		
 		//linkText 
 		driver.get("https://www.selenium.dev/documentation/webdriver/elements/locators/");
-		//driver.findElement(By.linkText("Overview")).click();
+		driver.findElement(By.linkText("Overview")).click();
 		
 		//partialLinkText
 		//driver.findElement(By.partialLinkText("Getting")).click();

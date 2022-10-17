@@ -25,8 +25,8 @@ public class FirstScript {
 //		
 //		
 //		// locate by ID attribute
-//		driver.findElement(By.id("firstName")).sendKeys("chinmay");
-//		driver.findElement(By.id("lastName")).sendKeys("deshpande");
+//		driver.findElement(By.id("firstName")).sendKeys("Pravesh");
+//		driver.findElement(By.id("lastName")).sendKeys("Mahat");
 //		//Thread.sleep(2000);
 //		//driver.findElement(By.id("gender-radio-1")).click();
 //		
